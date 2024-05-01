@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+
+#bus_spe_bac{
+    background-color: darkgreen;
+}
+
+main, h2{
+    font-family: Verdana, sans-serif;
+}
+
+.Spec_nam_back{
+    color: green;
+    background-color: greenyellow;
+    font-size: 25px;
+}
+
+a{
+    font-weight: bold;
+}
