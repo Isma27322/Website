@@ -1,0 +1,157 @@
+<!doctype html>    <!--tells the browser you are codeing in html5(This is a comment)-->
+<html lang="en"> <!--Always then first element in every webpage-->
+    <head> <!--page level declations-->
+        <title>This is my first web page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body> <!--guts of the page--> <!--inline content moves content across the page-->
+        <p>These are some of the headers</p>
+        <nav> <!--structural element-->
+            <p>This is a unordered list v</p>
+            <ul> <!--unordered list--> <!--navigation-->
+                <li class="listitem1">List Item 1</li>
+                <li id="Test_Id">List Item 2</li>
+                <li>List Item 3</li>
+                <li>List Item 4</li>
+                <li>List Item 5</li>
+                <li class="listitem1">List Item 6</li>
+            </ul>
+        </nav>
+        <main>
+            <header>
+                <h1>This is the first thing on my web page.</h1> <!--block elements move content down the page-->
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4><a href="./index.html">Heading 4</a></h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+            </header>
+            <h3>Have a question?</h3>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <table>
+                    <tr><td>Email:</td><td> <input type="email" name="email" required></td></tr>
+                    <tr><td>First name:</td><td> <input type="text" name="first" maxlength="50" required></td></tr>
+                    <tr><td>Last name:</td><td> <input type="text" name="last" required></td></tr>
+                    <tr><td>Address:</td><td> <input type="text" name="address" required></td></tr>
+                    <tr><td>City:</td><td> <input type="text" name="userCity" required></td></tr>
+                    <tr><td>State:</td><td> <select name="State">
+                        <option value="">Please select a option:</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="DC">District Of Columbia</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </select></td></tr>
+                    <tr><td>Zip:</td><td> <input type="text" name="zip" maxlength="5" required></td></tr>
+                    <tr>
+                        <td>Comment/Question/Consern</td>
+                        <td><textarea name="comment"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>How much do you love this form?</td>
+                        <td><input type="number" min="0" max="5" name="formRateing"></td>
+                    </tr>
+                    <tr><td><input type="submit"></td><td><input type="reset"></td></tr>
+
+                </table>
+            </form>
+            <p>This is the first thing on my web page.</p> <!--block elements create new lines-->
+            <p>This is a footer</p>
+        </main>
+            <div>
+                <h3>College of buiness Main office hours</h3>
+                <table>
+                    <tr>
+                        <th>Daty</th>
+                        <th>Open</th>
+                        <th>Close</th>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>6 am</td>
+                        <td>11 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>7 am</td>
+                        <td>10 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Wednsday</td>
+                        <td>8 am</td>
+                        <td>9 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>6 am</td>
+                        <td>11 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td colspan="2">10 am</td>
+                        <td colspan="2">6 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td rowspan="2">noon</td>
+                        <td rowspan="2">3 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                    </tr>
+                </table>
+            </div>
+        <footer>
+            All Rights Reserved. Privacy policy. Copyright(c) 2024
+        </footer>
+    </body>
+</html>

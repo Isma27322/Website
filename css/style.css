@@ -1,0 +1,117 @@
+/*CSS - cascadeing style sheet
+Link CSS file to HTML file <link rel="stylesheet" href="">
+Selector scope
+Tag selector - affect all instances of the tag
+Class Selector .- affect any number of elements per page
+ID selector #- affect one element
+For classes and IDS, 2 step process
+* Create the selector in CSS
+*  
+*/
+
+/*
+Selector {
+    property: value;
+    property: value;
+}
+*/
+
+/*highest level/widest scope selector = tag selector
+body
+*/
+
+header {
+    color: red;
+    background-color: hsl(254,60%,70%);
+    border: green solid 4px;
+    padding: 10px;
+    margin: 0px 200px;
+}
+
+body {
+    background-color: #4c3a41;
+    font-family: Verdana, sans-serif;
+    border: darkblue solid 10px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.listitem1{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+/*
+a:link   unvisited
+a:visited visited
+a:hover hovering
+a:active mouce is being clicked
+main thing color
+*/
+
+a:link {
+    color: green;
+    font-weight: normal;
+    text-decoration: wavy;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    background-color: green;
+    color: teal;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+a:active {
+    font-size: 50px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+    border: solid 10px greenyellow
+}
+
+h2{
+    font-weight: normal;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 72px;
+}
+
+#Test_Id{
+    color: gold;
+    background-color: blueviolet;
+    font-size: 40px;
+}
+
+main {
+    float: right;
+    width: 700px;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+td:nth-of-type(1) {
+    background-color: gray;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+div:first-of-type {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
