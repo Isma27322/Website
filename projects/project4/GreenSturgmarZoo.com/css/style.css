@@ -1,0 +1,113 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: rgb(62,55,177);
+    background: linear-gradient(rgba(62,55,177,1) 0%, rgba(20,121,9,1) 52%, rgba(0,212,255,1) 100%); 
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    background: rgb(234,255,0);
+    background: linear-gradient(rgba(234,255,0,1) 0%, rgba(112,121,20,1) 100%);
+}
+
+#wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
+#zoo_logo{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 350px;
+}
+
+#text{
+    margin-left: 0px;
+}
+
+header{
+    float: left;
+}
+
+h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+nav{
+    float: left;
+    clear: right;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-bottom: 430px;
+}
+
+#homePageNav {
+    margin-bottom: 487px;
+}
+
+.zooAnimals{
+    background-color: darkcyan;
+    padding: 10px;
+    border: slateblue solid 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+    border-radius: 10px;
+}
+
+#lastImg{
+    margin-left: 190px;
+    margin-top: -100px;
+    float: left;
+}
+
+footer{
+    clear: left;
+    margin-right: 100px;
+}
+
+a:hover {
+    color: Red;
+    background-color: blue;
+    border-radius: 20px;
+    font-size: smaller;
+}
+
+a:link {
+    color: Green;
+    font-weight: normal;
+    text-decoration: underline;
+    
+}
+
+a:active {
+    font-size: 80px;
+}
+
+a:visited {
+    color: FireBrick;
+    text-decoration: none;
+}
+
+.Spec_nam_back{
+    color: green;
+    background-color: greenyellow;
+    font-size: 25px;
+    width: fit-content;
+    padding: 2px;
+}
+
+
+main div:first-of-type {
+    margin-left: 259px;
+}
