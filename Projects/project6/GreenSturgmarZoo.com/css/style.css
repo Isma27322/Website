@@ -1,0 +1,157 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: rgb(62,55,177);
+    background: linear-gradient(rgba(62,55,177,1) 0%, rgba(20,121,9,1) 52%, rgba(0,212,255,1) 100%); 
+}
+
+#wrapper {
+    padding: 20px;
+    border-radius: 50px;
+    background: rgb(234,255,0);
+    background: linear-gradient(rgba(234,255,0,1) 0%, rgba(112,121,20,1) 100%);
+}
+
+#zoo_logo{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+}
+
+nav{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zooAnimals{
+    background-color: darkcyan;
+    padding: 10px;
+    border: slateblue solid 3px;
+    margin: 5px;
+    width: 135px;
+}
+
+a:link {
+    color: Green;
+    font-weight: normal;
+    text-decoration: underline;  
+}
+
+a:active {
+    font-size: 30px;
+    background-color: blue;
+    color: red;
+}
+
+a:visited {
+    color: FireBrick;
+    text-decoration: none;
+}
+
+nav ul li{
+    text-align: center;
+    background-color: lightcyan;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    margin-right: 40px;
+}
+
+/*Tablet Version*/ 
+@media only screen and (min-width: 700px)
+{    
+    #flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #wrapper {
+        background-color: aqua;
+    }
+
+    nav{
+        flex: 1;
+        margin-right: 10px;
+        margin-bottom: 200px;
+    }
+
+    nav li {
+        margin-right: 30px;
+    }
+
+    main {
+        flex: 2;
+    }
+
+    #zoo_logo{
+        width: 600px;
+    }
+
+    .zooAnimals {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 1000px)
+{
+    #wrapper {
+        width: 1000px;
+        margin: auto;
+    }
+    
+    #divhomepage {
+        margin-right: 7px;
+    }
+
+    #zoo_logo{
+        width: 950px;
+    }
+}
+
+#gridContainer {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 35% 65%;
+}
+
+#interiorImages {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.interiorZooAnimals {
+    background-color: darkcyan;
+    padding: 10px;
+    border: slateblue solid 3px;
+    margin: 5px;
+    width: 135px;
+    margin-bottom: 30px;
+}
+
+#interior_zoo_logo {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.Spec_nam_back{
+    color: green;
+    background-color: greenyellow;
+    width: 400px;
+    font-size: 25px;
+    padding: 2px;
+}
