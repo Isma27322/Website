@@ -1,0 +1,177 @@
+#wrapper {
+    padding: 20px;
+    border-radius: 50px;
+    background: rgb(73,71,71);
+    background: linear-gradient(0deg, rgba(73,71,71,1) 0%, rgba(106,121,9,1) 23%, rgba(87,145,10,1) 70%, rgba(0,255,15,1) 100%); 
+    box-shadow: 2px 2px 60px 30px red;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background: rgb(62,55,177);
+    background: linear-gradient(rgba(62,55,177,1) 0%, rgba(20,121,9,1) 52%, rgba(0,212,255,1) 100%); 
+}
+
+a:active {
+    font-size: 40px;
+    background-color: blue;
+    color: red;
+}
+a:visited {
+    color: FireBrick;
+    text-decoration: none;
+}
+
+iframe {
+    width: 350px;
+    height: 197px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav {
+    background: rgb(13,116,0);
+    background: linear-gradient(0deg, rgba(13,116,0,1) 0%, rgba(9,121,103,1) 47%, rgba(0,212,255,1) 100%); 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li{
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    margin-right: 40px;
+}
+
+#eagle {
+    background-image: url(../Images/EagleImage.jpg);
+    padding: 75px;
+    width: 40%;
+    margin-bottom: 10px;
+    height: 60px;
+    background-size: 295px 211px;
+}
+
+#schooling {
+    background-image: url(../Images/School.jpeg);
+    padding: 75px;
+    width: 40%;
+    margin-bottom: 10px;
+    height: 60px;
+    background-size: 295px 211px;
+}
+
+#hobbies {
+    background-image: url(../Images/binary.png);
+    padding: 75px;
+    width: 40%;
+    margin-bottom: 10px;
+    height: 60px;
+    background-size: 295px 211px;
+}
+
+#favMusic {
+    background-image: url(../Images/Music.jpg);
+    padding: 75px;
+    width: 40%;
+    margin-bottom: 10px;
+    height: 60px;
+    background-size: 295px 211px;
+}
+
+#favMovies {
+    background-image: url(../Images/Movies.png);
+    padding: 75px;
+    width: 40%;
+    margin-bottom: 10px;
+    height: 60px;
+    background-size: 295px 211px;
+}
+
+.links {
+    background-color: rgb(171, 187, 212);
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 11px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#firstCol {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+table {
+    border: 5px black solid;
+    border-collapse: collapse;
+}
+
+table td:not(#firstCol){
+    border: 1px black solid;
+    padding: 2px;
+    background-color: white;
+}
+
+table td:nth-of-type(even) {
+    text-align: center;
+}
+
+table td:nth-of-type(odd) {
+    font-weight: bold;
+}
+
+table td:nth-of-type(odd) {
+    text-align: right;
+}
+
+#homepageform td{
+    border: none!important;
+}
+#homepageform td:nth-last-of-type(odd){
+    text-align: left;
+}
+
+.NoShowingNumber {
+    list-style-type: none;
+}
+
+
+@media only screen and (min-width: 1000px)
+{
+    #wrapper {
+        width: 1024px;
+        margin: auto;
+    }
+
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+    
+    #gridContainer {
+        display: grid;
+        row-gap: 20px;
+        column-gap: 20px;
+        grid-template-columns: 40% 60%;
+    }
+
+    #gridContainertwo {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+}
